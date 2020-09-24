@@ -1,0 +1,39 @@
+{
+  "name": "ali-acm",
+  "version": "1.0.0",
+  "description": "Aliyun ACM sdk for Node.js.",
+  "scripts": {
+    "test": "node test"
+  },
+  "main": "./index",
+  "keywords": [
+    "ali",
+    "aliyun",
+    "alicloud",
+    "阿里云",
+    "acm",
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/ali-acm"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.5.0"
+  },
+  "devDependencies": {
+    "eslint": "7.9.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1"
+  },
+  "dependencies": {
+    "@alicloud/acm-sdk": "1.0.1",
+    "debug": "4.2.0",
+    "lodash": "4.17.20",
+    "make-synchronous": "0.1.1"
+  }
+}
